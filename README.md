@@ -3,7 +3,7 @@ Resources for making your Mac more secure (targeted to developers)
 
 ## Containerization of development environments
 ### Idea
-- Create VMs for node, rust, etc. or for individual projects
+- Create containers (VMs) in which we develop our projects and can safely execute third party code
 - We use Vagrant and Docker (if you have an Intel machine, you can also use VirtualBox but M1 only works with Docker atm)
 - We will do code editing over SSH in VSCode
 - This allows us to install and run devtools and VSCode extensions only in the local container and not our main machine, which is pretty cool.
